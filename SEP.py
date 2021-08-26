@@ -31,7 +31,7 @@ try:
 			ES.close()
 			for es in ESP():
 				es	 
-except:
+except ValueError:
 	print("No Number is put at passingmarks")
 print("type  enter to add name  and other")
 ESP_RUN=input("$")
