@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>click</title>
+        <script>
+            var a,b,c;
+            f=0;
+            function L(){
+                b=f+1;
+                if(b>f){
+                    a=b;
+                    l(a);
+                }
+                //else {
+                    a=1;
+                    
+                //}
+                             
+                function l(a){
+                    if(a>f){
+                            c=[a];
+                            console.log(c);
+                        for(var i=0;i<c;i++){
+                                var h=[i];
+                                console.log(h);}
+                            document.getElementById('li').innerHTML='like is' + c;
+                        
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="L()">click</button>
+        <div>
+            <div>
+              <button onclick="L()"><img src="./20210925_213851.jpg" alt="photo" height="400px" width="400px"></button>
+                <br>
+                <div><p id='li'></p></div>
+            </div>
+        
+        </div>
+    </body>
